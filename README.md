@@ -395,7 +395,7 @@ MIT License - see [LICENSE](LICENSE) file for details.
 - **Documentation**: [docs.exyra.ai/cognitive](https://docs.exyra.ai/cognitive)
 - **Main Platform**: [cerebrum.exyra.ai](https://cerebrum.exyra.ai)
 - **GitHub**: [github.com/ExyraLabs](https://github.com/ExyraLabs)
-- **Discord**: [Join our community](https://discord.gg/exyra)
+- **Discord**: [Join our community](https://discord.gg/ExyraLabs)
 
 ---
 

@@ -5,9 +5,9 @@
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
-    "dev": "tsx watch src/index.ts",
-    "build": "tsc && node scripts/post-build.cjs",
-    "start": "node dist/index.js",
+    "dev": "node api.js && tsx watch src/index.ts",
+    "build": "node api.js && tsc && node scripts/post-build.cjs",
+    "start": "node api.js && node dist/index.js",
     "test": "vitest",
     "test:watch": "vitest --watch",
     "lint": "eslint src --ext .ts,.tsx --fix",
@@ -33,6 +33,7 @@
     "ethers": "^6.15.0",
     "eventemitter3": "^5.0.1",
     "lodash": "^4.17.21",
+    "node-fetch": "^3.3.2",
     "uuid": "^9.0.1",
     "ws": "^8.14.0"
   },

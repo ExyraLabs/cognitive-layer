@@ -63,11 +63,9 @@ jspm_packages/
 .yarn-integrity
 
 # dotenv environment variable files
-.env
 .env.development.local
 .env.test.local
 .env.production.local
-.env.local
 
 # parcel-bundler cache (https://parceljs.org/)
 .cache
@@ -131,7 +129,6 @@ logs
 !scripts/*.cjs
 
 # IDE and Editor files
-.vscode/
 .idea/
 *.swp
 *.swo
@@ -153,7 +150,6 @@ temp/
 tmp/
 
 # API Keys and sensitive data
-.env*
 !.env.example
 config/local.json
 secrets.json
@@ -272,3 +268,4 @@ Cargo.lock
 
 # Go workspace file
 go.work
+config.bat
